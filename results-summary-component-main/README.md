@@ -4,7 +4,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://catherineisonline.github.io/calculator/" color="white">
+    <a href="https://ramiromtz.github.io/Frontend-Mentor/results-summary-component-main/index.html" color="white">
       Live
     </a>
     <span> | </span>
