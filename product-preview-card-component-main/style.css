@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Primary colors */
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+    /* Neutral colors */
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+.mobile-img {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--Cream);
+}
+
+.main {
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: .75rem;
+    overflow: hidden;
+    background-color: var(--White);
+}
+
+.left__side .desktop-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.right__side {
+    padding: 2.1rem;
+
+    .perfume {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: var(--Dark-grayish-blue);
+        font-weight: 500;
+        margin-bottom: .8rem;
+    }
+
+    .title {
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: .8rem;
+    }
+
+    .description {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: var(--Dark-grayish-blue);
+        line-height: 1.5;
+        margin-bottom: 1.75rem;
+    }
+
+    .price__content {
+        display: flex;
+        column-gap: 1rem;
+        align-items: center;
+        margin-bottom: 2.35rem;
+
+        .price {
+            font-family: 'Fraunces', serif;
+            font-size: 2.125rem;
+            color: var(--Dark-cyan);
+        }
+
+        .old__price {
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: line-through;
+            color: var(--Dark-grayish-blue);
+        }
+    }
+
+    .btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: .8rem;
+        padding: .95rem 0;
+        background-color: var(--Dark-cyan);
+        border: none;
+        outline: none;
+        color: var(--White);
+        border-radius: .5rem;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: hsl(156.92deg 43.82% 17.45%);
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Lets make it responsive */
+@media screen and (max-width: 650px) {
+
+    .main {
+        max-width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+    .left__side {
+        .desktop-img {
+            display: none;
+        }
+
+        .mobile-img {
+            display: block;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    .attribution {
+        display: none;
+    }
+}
