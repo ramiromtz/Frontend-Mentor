@@ -30,10 +30,11 @@
 <br><br>Los usuarios deberían ver:
 <br>
 1. Vea cómo el tamaño de los elementos se ajusta según el tamaño de la pantalla de su dispositivo.
+<br>
 2. Dependiendo del dispositivo, la imagen cambia.
 
 
-## Built with
+## Hecho con
 
 - Html5
 - Propiedas persolizadas de CSS
