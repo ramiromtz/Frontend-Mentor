@@ -8,11 +8,11 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/product-preview-card-using-grid-wDfTYd22uw">
+    <a href="https://www.frontendmentor.io/solutions/interactive-rating-with-js-3WCHTbwNbd">
       Solución
     </a>
    <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa">
+    <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">
       Challenge
     </a>
   </h3>
