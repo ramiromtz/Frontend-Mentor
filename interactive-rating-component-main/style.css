@@ -160,3 +160,15 @@ body {
     line-height: 1.8;
     text-align: center;
 }
+
+/* Lets make it responsive */
+@media screen and (max-width: 650px) {
+    .card__container,
+    .acknowledgments {
+        max-width: 90%;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
