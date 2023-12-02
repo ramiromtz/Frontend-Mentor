@@ -8,7 +8,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/interactive-rating-with-js-3WCHTbwNbd">
+    <a href="https://www.frontendmentor.io/solutions/nft-preview-card-lsf0xNEAJs">
       Solución
     </a>
    <span> | </span>
