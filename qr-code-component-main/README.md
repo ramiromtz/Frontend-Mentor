@@ -8,11 +8,11 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/calculator-app-QeAU-DdsSj">
+    <a href="https://www.frontendmentor.io/solutions/qr-card-component-with-html-and-css3-FfPDxDvp9r">
       Solución
     </a>
    <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/result-summary-component-using-grid-6bQJHKmP1c">
+    <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">
       Challenge
     </a>
   </h3>
