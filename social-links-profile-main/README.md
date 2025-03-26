@@ -1,4 +1,4 @@
-<img src="./design/desktop-design.jpg?raw=true"></img>
+<img src="./design/destkop-design.jpg?raw=true"></img>
 
 <h1 align="center">Social Links Profile</h1>
 
