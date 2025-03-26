@@ -1,0 +1,107 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Variables */
+:root {
+    /* ## Colors */
+
+    /* ### Primary */
+
+    --Green: hsl(75, 94%, 57%);
+
+    /* ### Neutral */
+
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: var(--Off-Black);
+}
+
+.card {
+    max-width: 90%;
+    width: 350px;
+    background-color: var(--Dark-Grey);
+    padding: 2rem 1.5rem;
+    border-radius: .9rem;
+}
+
+.profile-img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1.3rem;
+}
+
+:where(.username, .location, .description) {
+    text-align: center;
+}
+
+.username {
+    font-size: 1.35rem;
+    color: var(--White);
+    margin-bottom: .55rem;
+}
+
+.location {
+    font-size: .85rem;
+    color: var(--Green);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: .85em;
+    color: var(--White);
+    font-weight: 400;
+    margin-bottom: 1.1rem;
+}
+
+.social-media-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.social-media {
+    width: 100%;
+    background-color: var(--Grey);
+    padding: .75rem 0;
+    border-radius: .35rem;
+    text-align: center;
+    color: var(--White);
+    font-size: .85rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.social-media:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+}
+
+@media screen and (max-width: 365px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    :where(.description, .location) {
+        font-size: 0.75rem !important;
+    }
+}
